@@ -67,8 +67,10 @@ const balls = (colors) => {
   } else if (colors == pink) {
     console.log("i too like pink color");
   } else {
-    console.log("i don't like any color");
+    return "i don't like grey";
   }
 };
 const colors = ["red", "blue", "pink"];
-console.log(balls(colors[2]));
+colors.push("grey");
+console.log(colors);
+console.log(balls(colors[3]));
