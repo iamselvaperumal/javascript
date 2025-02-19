@@ -222,4 +222,24 @@ const calcTemp = function (temperature) {
   console.log(min, max);
   return max - min;
 };
+// temperatures.push * [82, -40, 24];
 console.log(calcTemp(temperatures));
+
+const temp1 = [3, -2, -6, "error", 9, 13, 17, 15, 14, 9, 5];
+const temp2 = [8, 12, 21];
+calcTempNew = function (temp1, temp2) {
+  const temp = temp1.concat(temp2);
+  let min = temp[0];
+  let max = temp[0];
+  for (let i = 1; i < temp.length; i++) {
+    const currentTemp = temp[i];
+    if (typeof currentTemp !== "number") continue;
+    if (currentTemp > max) max = currentTemp;
+    if (currentTemp < min) min = currentTemp;
+  }
+  console.log(temp);
+  console.log(min, max);
+  return max - min;
+};
+
+console.log(calcTempNew(temp1, temp2));

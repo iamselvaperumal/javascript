@@ -1,0 +1,1 @@
+temperatures.push * [82, -40, 24];
