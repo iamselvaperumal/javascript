@@ -57,3 +57,19 @@ calcTempNew = function (temp1, temp2) {
 };
 
 console.log(calcTempNew(temp1, temp2));
+
+// debugging Concept
+const arr1 = [17, 21, 23];
+const arr2 = [12, 5, -5, 0, 4];
+const printForecast = function (arr1, arr2) {
+  const arr = arr1.concat(arr2);
+  str = "...";
+  for (let i = 0; i < arr.length; i++) {
+    str += `${arr[i]}°C in ${i + 1} Day..., `;
+  }
+
+  return str;
+};
+
+console.log(printForecast(arr1, arr2));
+// console.log(printForecast(arr));
