@@ -72,4 +72,4 @@ const printForecast = function (arr1, arr2) {
 };
 
 console.log(printForecast(arr1, arr2));
-// console.log(printForecast(arr));
+console.log(printForecast(arr));
