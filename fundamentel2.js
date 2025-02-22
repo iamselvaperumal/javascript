@@ -183,3 +183,9 @@ students.map((student) => {
   console.log(student.age);
   console.log(student.total());
 });
+
+let i = 0;
+let j = 15;
+for (let k = i; k <= j; k++) {
+  console.log(k);
+}

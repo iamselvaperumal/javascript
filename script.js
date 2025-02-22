@@ -134,3 +134,8 @@ let myName = "Selva";
 console.log(typeof myName, myName);
 myName = 7339201392;
 console.log(typeof myName, myName);
+
+let element = document.getElementById("box");
+element.innerHTML = "<p>hi hello </p>";
+element.style.color = "blue";
+console.log(element.textContent);

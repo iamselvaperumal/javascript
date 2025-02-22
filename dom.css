@@ -1,0 +1,25 @@
+button {
+  background-color: pink;
+  color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+p {
+  border: solid 3px gray;
+  /* width: 100px;
+  height: 50px; */
+  border-radius: 6px;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 8px;
+  color: red;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
